@@ -1,4 +1,6 @@
 import React from "react";
+import { Header } from "../components/Header";
+import { Profile } from "../components/Profile";
 import { motion as m } from "framer-motion";
 
 import "../theme/global.css";
@@ -12,7 +14,8 @@ const IndexPage = () => {
   return (
     <>
       <m.main {...variants}>
-        <main>Hello World!</main>
+        <Header />
+        <Profile />
       </m.main>
     </>
   );
